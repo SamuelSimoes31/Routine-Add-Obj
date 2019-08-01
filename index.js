@@ -39,7 +39,10 @@ class App extends Component {
 
     return (
       <div className = "Background">
-          <Lista itens = {obj} tam = {obj.length}/>  
+          <Lista 
+            itens = {obj} 
+            tam = {obj.length}
+          />  
       </div>
     );
   }
