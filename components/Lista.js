@@ -2,7 +2,7 @@ import React from 'react';
 import { Input, Tooltip, Icon, Button} from 'antd';
 import 'antd/es/date-picker/style/css';
 import FormatoItem from './FormatoItem.js';
-
+import './FormatoItem.css';
 
 
 class Lista extends React.Component{
@@ -21,8 +21,10 @@ class Lista extends React.Component{
     }
 
       return(
-        <div>
-
+        <div className = "Tabela">
+        <div className = "Tittle">
+          Menu de Objetos
+        </div>
         {retorno}
 
         </div>
