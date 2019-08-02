@@ -28,19 +28,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10vh;
+  margin-top: 0vh;
 
 }
 
 .Tittle{
 font-size: 40px;
+width: 100vw;
+text-align: center;
 margin-bottom:60px;
-padding: 10px 20px 10px 20px;
-border-radius: 15px 0px 15px 0px;
+padding: 20px 20px 20px 20px;
 box-shadow: 0px 0px 15px 0px;
 color: black;
 text-transform: uppercase;
-font-family: 'Times New Roman';
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: rgba(184, 43, 153, 0.788);
 }
 

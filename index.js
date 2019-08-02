@@ -6,7 +6,7 @@ import 'antd/es/date-picker/style/css';
 import InputLabel from './components/InputLabel.js'
 import Lista from './components/Lista.js'
 
-import Button from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 
 //<InputLabel/>
 //
@@ -44,7 +44,7 @@ class App extends Component {
           <Lista 
             itens = {obj} 
             tam = {obj.length}
-          /> 
+          />
       </div>
     );
   }
