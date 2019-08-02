@@ -23,7 +23,7 @@ class Lista extends React.Component{
       return(
         <div className = "Tabela">
         <div className = "Tittle">
-          Menu de Objetos
+          Seus Objetos
         </div>
         {retorno}
 
