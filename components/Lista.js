@@ -26,8 +26,9 @@ class Lista extends React.Component{
           Seus Objetos
         
         </div>
+        <div className = "Itens">
         {retorno}
-
+        </div>
         </div>
       );
 
